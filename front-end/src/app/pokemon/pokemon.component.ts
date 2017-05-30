@@ -8,8 +8,7 @@ import { Http } from '@angular/http';
 })
 export class PokemonComponent implements OnInit {
   pokemons;
-
-  private shown: string = 'EQUIFAX';
+  clicks = 0;
 
   constructor(private http: Http) {};
 
@@ -23,7 +22,19 @@ export class PokemonComponent implements OnInit {
     }
 
     clicked(event, img) {
-      return event.target.src = img;
+      if (this.clicks < 2) {
+        this.clicks += 1;
+        event.target.src = img;
+        if ( this.clicks == 2) {
+          setTimeout(() => {
+            let imgs = document.querySelectorAll('img');
+            [].forEach.call(imgs, function(imgs) {
+              imgs.src = 'https://opengameart.org/sites/default/files/card%20back%20red.png';
+            });
+          }, 1500);
+        this.clicks = 0;
+        };
+      };
     }
     
 }
