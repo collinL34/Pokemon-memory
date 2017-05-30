@@ -25,4 +25,5 @@ export class PokemonComponent implements OnInit {
     clicked(event, img) {
       return event.target.src = img;
     }
+    
 }
