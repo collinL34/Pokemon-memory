@@ -5,11 +5,13 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { PokemonComponent } from './pokemon/pokemon.component';
+import { HomePageComponent } from './home-page/home-page.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    PokemonComponent
+    PokemonComponent,
+    HomePageComponent
   ],
   imports: [
     BrowserModule,
