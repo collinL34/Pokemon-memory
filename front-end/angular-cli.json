@@ -19,8 +19,7 @@
       "tsconfig": "tsconfig.json",
       "prefix": "app",
       "styles": [
-        "styles.css",
-        "app/pokemon/pokemon.component.css"
+        "styles.css"
       ],
       "scripts": [],
       "environments": {
