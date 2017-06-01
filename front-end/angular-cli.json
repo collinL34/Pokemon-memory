@@ -20,7 +20,6 @@
       "prefix": "app",
       "styles": [
         "styles.css",
-        "app/home-page/home-page.component.css",
         "app/pokemon/pokemon.component.css"
       ],
       "scripts": [],
