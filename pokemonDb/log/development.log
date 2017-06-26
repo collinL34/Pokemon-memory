@@ -13350,3 +13350,531 @@ Completed 200 OK in 7ms (Views: 1.7ms | ActiveRecord: 1.0ms)
   [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
   [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "pokemons" ("name", "image_link", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Dodrio"], ["image_link", "https://img.pokemondb.net/artwork/dodrio.jpg"], ["created_at", "2017-06-26 20:28:24.467395"], ["updated_at", "2017-06-26 20:28:24.467395"]]
   [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mPokemon Load (0.2ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Kricketot"], ["image_link", "https://img.pokemondb.net/artwork/kricketot.jpg"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "pokemons" ("name", "image_link", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Kricketot"], ["image_link", "https://img.pokemondb.net/artwork/kricketot.jpg"], ["created_at", "2017-06-26 20:28:28.330482"], ["updated_at", "2017-06-26 20:28:28.330482"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mPokemon Load (0.2ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Buizel"], ["image_link", "https://img.pokemondb.net/artwork/buizel.jpg"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "pokemons" ("name", "image_link", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Buizel"], ["image_link", "https://img.pokemondb.net/artwork/buizel.jpg"], ["created_at", "2017-06-26 20:28:32.611835"], ["updated_at", "2017-06-26 20:28:32.611835"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mPokemon Load (0.2ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Probopass"], ["image_link", "https://img.pokemondb.net/artwork/probopass.jpg"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "pokemons" ("name", "image_link", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Probopass"], ["image_link", "https://img.pokemondb.net/artwork/probopass.jpg"], ["created_at", "2017-06-26 20:28:36.717408"], ["updated_at", "2017-06-26 20:28:36.717408"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mPokemon Load (0.2ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Golem"], ["image_link", "https://img.pokemondb.net/artwork/golem.jpg"], ["LIMIT", 1]]
+  [1m[36mPokemon Load (0.1ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Salamence"], ["image_link", "https://img.pokemondb.net/artwork/salamence.jpg"], ["LIMIT", 1]]
+  [1m[36mPokemon Load (0.2ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Forretress"], ["image_link", "https://img.pokemondb.net/artwork/forretress.jpg"], ["LIMIT", 1]]
+  [1m[36mPokemon Load (0.2ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Machamp"], ["image_link", "https://img.pokemondb.net/artwork/machamp.jpg"], ["LIMIT", 1]]
+  [1m[36mPokemon Load (0.2ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Jigglypuff"], ["image_link", "https://img.pokemondb.net/artwork/jigglypuff.jpg"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "pokemons" ("name", "image_link", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Jigglypuff"], ["image_link", "https://img.pokemondb.net/artwork/jigglypuff.jpg"], ["created_at", "2017-06-26 20:28:58.685849"], ["updated_at", "2017-06-26 20:28:58.685849"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mPokemon Load (0.2ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Solosis"], ["image_link", "https://img.pokemondb.net/artwork/solosis.jpg"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "pokemons" ("name", "image_link", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Solosis"], ["image_link", "https://img.pokemondb.net/artwork/solosis.jpg"], ["created_at", "2017-06-26 20:29:03.212087"], ["updated_at", "2017-06-26 20:29:03.212087"]]
+  [1m[35m (1.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mPokemon Load (0.2ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Zigzagoon"], ["image_link", "https://img.pokemondb.net/artwork/zigzagoon.jpg"], ["LIMIT", 1]]
+  [1m[36mPokemon Load (0.1ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Pidgeot"], ["image_link", "https://img.pokemondb.net/artwork/pidgeot.jpg"], ["LIMIT", 1]]
+  [1m[36mPokemon Load (0.1ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Mienshao"], ["image_link", "https://img.pokemondb.net/artwork/mienshao.jpg"], ["LIMIT", 1]]
+  [1m[36mPokemon Load (0.2ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Meloetta"], ["image_link", "https://img.pokemondb.net/artwork/meloetta-aria.jpg"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "pokemons" ("name", "image_link", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Meloetta"], ["image_link", "https://img.pokemondb.net/artwork/meloetta-aria.jpg"], ["created_at", "2017-06-26 20:29:20.722209"], ["updated_at", "2017-06-26 20:29:20.722209"]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mPokemon Load (0.1ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Heatran"], ["image_link", "https://img.pokemondb.net/artwork/heatran.jpg"], ["LIMIT", 1]]
+  [1m[36mPokemon Load (0.1ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Alakazam"], ["image_link", "https://img.pokemondb.net/artwork/alakazam.jpg"], ["LIMIT", 1]]
+  [1m[36mPokemon Load (0.1ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Shelgon"], ["image_link", "https://img.pokemondb.net/artwork/shelgon.jpg"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "pokemons" ("name", "image_link", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Shelgon"], ["image_link", "https://img.pokemondb.net/artwork/shelgon.jpg"], ["created_at", "2017-06-26 20:29:33.919748"], ["updated_at", "2017-06-26 20:29:33.919748"]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mPokemon Load (0.2ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Litwick"], ["image_link", "https://img.pokemondb.net/artwork/litwick.jpg"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "pokemons" ("name", "image_link", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Litwick"], ["image_link", "https://img.pokemondb.net/artwork/litwick.jpg"], ["created_at", "2017-06-26 20:29:38.038287"], ["updated_at", "2017-06-26 20:29:38.038287"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mPokemon Load (0.1ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Froakie"], ["image_link", "https://img.pokemondb.net/artwork/froakie.jpg"], ["LIMIT", 1]]
+  [1m[36mPokemon Load (0.2ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Yanmega"], ["image_link", "https://img.pokemondb.net/artwork/yanmega.jpg"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "pokemons" ("name", "image_link", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Yanmega"], ["image_link", "https://img.pokemondb.net/artwork/yanmega.jpg"], ["created_at", "2017-06-26 20:29:45.893197"], ["updated_at", "2017-06-26 20:29:45.893197"]]
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mPokemon Load (0.1ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Raticate"], ["image_link", "https://img.pokemondb.net/artwork/raticate.jpg"], ["LIMIT", 1]]
+  [1m[36mPokemon Load (0.1ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Passimian"], ["image_link", "https://img.pokemondb.net/artwork/passimian.jpg"], ["LIMIT", 1]]
+  [1m[36mPokemon Load (0.2ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Fletchinder"], ["image_link", "https://img.pokemondb.net/artwork/fletchinder.jpg"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "pokemons" ("name", "image_link", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Fletchinder"], ["image_link", "https://img.pokemondb.net/artwork/fletchinder.jpg"], ["created_at", "2017-06-26 20:29:57.414835"], ["updated_at", "2017-06-26 20:29:57.414835"]]
+  [1m[35m (1.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mPokemon Load (0.2ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Dugtrio"], ["image_link", "https://img.pokemondb.net/artwork/dugtrio.jpg"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "pokemons" ("name", "image_link", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Dugtrio"], ["image_link", "https://img.pokemondb.net/artwork/dugtrio.jpg"], ["created_at", "2017-06-26 20:30:01.380383"], ["updated_at", "2017-06-26 20:30:01.380383"]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mPokemon Load (0.1ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Sawsbuck"], ["image_link", "https://img.pokemondb.net/artwork/sawsbuck.jpg"], ["LIMIT", 1]]
+  [1m[36mPokemon Load (0.1ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Snubbull"], ["image_link", "https://img.pokemondb.net/artwork/snubbull.jpg"], ["LIMIT", 1]]
+  [1m[36mPokemon Load (0.2ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Luvdisc"], ["image_link", "https://img.pokemondb.net/artwork/luvdisc.jpg"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "pokemons" ("name", "image_link", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Luvdisc"], ["image_link", "https://img.pokemondb.net/artwork/luvdisc.jpg"], ["created_at", "2017-06-26 20:30:13.659124"], ["updated_at", "2017-06-26 20:30:13.659124"]]
+  [1m[35m (1.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mPokemon Load (0.2ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Accelgor"], ["image_link", "https://img.pokemondb.net/artwork/accelgor.jpg"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "pokemons" ("name", "image_link", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Accelgor"], ["image_link", "https://img.pokemondb.net/artwork/accelgor.jpg"], ["created_at", "2017-06-26 20:30:17.562919"], ["updated_at", "2017-06-26 20:30:17.562919"]]
+  [1m[35m (1.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mPokemon Load (0.1ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Steelix"], ["image_link", "https://img.pokemondb.net/artwork/steelix.jpg"], ["LIMIT", 1]]
+  [1m[36mPokemon Load (0.2ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Minccino"], ["image_link", "https://img.pokemondb.net/artwork/minccino.jpg"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "pokemons" ("name", "image_link", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Minccino"], ["image_link", "https://img.pokemondb.net/artwork/minccino.jpg"], ["created_at", "2017-06-26 20:30:25.405246"], ["updated_at", "2017-06-26 20:30:25.405246"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mPokemon Load (0.1ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Banette"], ["image_link", "https://img.pokemondb.net/artwork/banette.jpg"], ["LIMIT", 1]]
+  [1m[36mPokemon Load (0.2ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Kadabra"], ["image_link", "https://img.pokemondb.net/artwork/kadabra.jpg"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "pokemons" ("name", "image_link", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Kadabra"], ["image_link", "https://img.pokemondb.net/artwork/kadabra.jpg"], ["created_at", "2017-06-26 20:30:33.571358"], ["updated_at", "2017-06-26 20:30:33.571358"]]
+  [1m[35m (1.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mPokemon Load (0.2ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Cofagrigus"], ["image_link", "https://img.pokemondb.net/artwork/cofagrigus.jpg"], ["LIMIT", 1]]
+  [1m[36mPokemon Load (0.1ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Wigglytuff"], ["image_link", "https://img.pokemondb.net/artwork/wigglytuff.jpg"], ["LIMIT", 1]]
+  [1m[36mPokemon Load (0.1ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Mesprit"], ["image_link", "https://img.pokemondb.net/artwork/mesprit.jpg"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "pokemons" ("name", "image_link", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Mesprit"], ["image_link", "https://img.pokemondb.net/artwork/mesprit.jpg"], ["created_at", "2017-06-26 20:30:45.390596"], ["updated_at", "2017-06-26 20:30:45.390596"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mPokemon Load (0.2ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Diancie"], ["image_link", "https://img.pokemondb.net/artwork/diancie.jpg"], ["LIMIT", 1]]
+  [1m[36mPokemon Load (0.1ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Luxio"], ["image_link", "https://img.pokemondb.net/artwork/luxio.jpg"], ["LIMIT", 1]]
+  [1m[36mPokemon Load (0.2ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Torterra"], ["image_link", "https://img.pokemondb.net/artwork/torterra.jpg"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "pokemons" ("name", "image_link", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Torterra"], ["image_link", "https://img.pokemondb.net/artwork/torterra.jpg"], ["created_at", "2017-06-26 20:30:56.815494"], ["updated_at", "2017-06-26 20:30:56.815494"]]
+  [1m[35m (1.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mPokemon Load (0.2ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Popplio"], ["image_link", "https://img.pokemondb.net/artwork/popplio.jpg"], ["LIMIT", 1]]
+  [1m[36mPokemon Load (0.1ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Binacle"], ["image_link", "https://img.pokemondb.net/artwork/binacle.jpg"], ["LIMIT", 1]]
+  [1m[36mPokemon Load (0.2ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Absol"], ["image_link", "https://img.pokemondb.net/artwork/absol.jpg"], ["LIMIT", 1]]
+  [1m[36mPokemon Load (0.2ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Munna"], ["image_link", "https://img.pokemondb.net/artwork/munna.jpg"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "pokemons" ("name", "image_link", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Munna"], ["image_link", "https://img.pokemondb.net/artwork/munna.jpg"], ["created_at", "2017-06-26 20:31:12.168750"], ["updated_at", "2017-06-26 20:31:12.168750"]]
+  [1m[35m (1.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mPokemon Load (0.1ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Mewtwo"], ["image_link", "https://img.pokemondb.net/artwork/mewtwo.jpg"], ["LIMIT", 1]]
+  [1m[36mPokemon Load (0.1ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Diancie"], ["image_link", "https://img.pokemondb.net/artwork/diancie.jpg"], ["LIMIT", 1]]
+  [1m[36mPokemon Load (0.1ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Sawsbuck"], ["image_link", "https://img.pokemondb.net/artwork/sawsbuck.jpg"], ["LIMIT", 1]]
+  [1m[36mPokemon Load (0.2ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Tympole"], ["image_link", "https://img.pokemondb.net/artwork/tympole.jpg"], ["LIMIT", 1]]
+  [1m[36mPokemon Load (0.1ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Audino"], ["image_link", "https://img.pokemondb.net/artwork/audino.jpg"], ["LIMIT", 1]]
+  [1m[36mPokemon Load (0.1ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Doublade"], ["image_link", "https://img.pokemondb.net/artwork/doublade.jpg"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "pokemons" ("name", "image_link", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Doublade"], ["image_link", "https://img.pokemondb.net/artwork/doublade.jpg"], ["created_at", "2017-06-26 20:31:36.222380"], ["updated_at", "2017-06-26 20:31:36.222380"]]
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mPokemon Load (0.2ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Snivy"], ["image_link", "https://img.pokemondb.net/artwork/snivy.jpg"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "pokemons" ("name", "image_link", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Snivy"], ["image_link", "https://img.pokemondb.net/artwork/snivy.jpg"], ["created_at", "2017-06-26 20:31:40.609766"], ["updated_at", "2017-06-26 20:31:40.609766"]]
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mPokemon Load (0.2ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Kabutops"], ["image_link", "https://img.pokemondb.net/artwork/kabutops.jpg"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "pokemons" ("name", "image_link", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Kabutops"], ["image_link", "https://img.pokemondb.net/artwork/kabutops.jpg"], ["created_at", "2017-06-26 20:31:44.909262"], ["updated_at", "2017-06-26 20:31:44.909262"]]
+  [1m[35m (1.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mPokemon Load (0.1ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Camerupt"], ["image_link", "https://img.pokemondb.net/artwork/camerupt.jpg"], ["LIMIT", 1]]
+  [1m[36mPokemon Load (0.1ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Cutiefly"], ["image_link", "https://img.pokemondb.net/artwork/cutiefly.jpg"], ["LIMIT", 1]]
+  [1m[36mPokemon Load (0.2ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Dhelmise"], ["image_link", "https://img.pokemondb.net/artwork/dhelmise.jpg"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "pokemons" ("name", "image_link", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Dhelmise"], ["image_link", "https://img.pokemondb.net/artwork/dhelmise.jpg"], ["created_at", "2017-06-26 20:31:57.456788"], ["updated_at", "2017-06-26 20:31:57.456788"]]
+  [1m[35m (1.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mPokemon Load (0.2ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Arcanine"], ["image_link", "https://img.pokemondb.net/artwork/arcanine.jpg"], ["LIMIT", 1]]
+  [1m[36mPokemon Load (0.1ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Meditite"], ["image_link", "https://img.pokemondb.net/artwork/meditite.jpg"], ["LIMIT", 1]]
+  [1m[36mPokemon Load (0.1ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Dewott"], ["image_link", "https://img.pokemondb.net/artwork/dewott.jpg"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "pokemons" ("name", "image_link", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Dewott"], ["image_link", "https://img.pokemondb.net/artwork/dewott.jpg"], ["created_at", "2017-06-26 20:32:09.669711"], ["updated_at", "2017-06-26 20:32:09.669711"]]
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mPokemon Load (0.1ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Manectric"], ["image_link", "https://img.pokemondb.net/artwork/manectric.jpg"], ["LIMIT", 1]]
+  [1m[36mPokemon Load (0.2ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Pignite"], ["image_link", "https://img.pokemondb.net/artwork/pignite.jpg"], ["LIMIT", 1]]
+  [1m[36mPokemon Load (0.2ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Alakazam"], ["image_link", "https://img.pokemondb.net/artwork/alakazam.jpg"], ["LIMIT", 1]]
+  [1m[36mPokemon Load (1.6ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Rotom"], ["image_link", "https://img.pokemondb.net/artwork/rotom-normal.jpg"], ["LIMIT", 1]]
+  [1m[36mPokemon Load (0.1ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Magnemite"], ["image_link", "https://img.pokemondb.net/artwork/magnemite.jpg"], ["LIMIT", 1]]
+  [1m[36mPokemon Load (0.1ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Floette"], ["image_link", "https://img.pokemondb.net/artwork/floette.jpg"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "pokemons" ("name", "image_link", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Floette"], ["image_link", "https://img.pokemondb.net/artwork/floette.jpg"], ["created_at", "2017-06-26 20:32:33.780789"], ["updated_at", "2017-06-26 20:32:33.780789"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mPokemon Load (0.2ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Flareon"], ["image_link", "https://img.pokemondb.net/artwork/flareon.jpg"], ["LIMIT", 1]]
+  [1m[36mPokemon Load (0.2ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Ambipom"], ["image_link", "https://img.pokemondb.net/artwork/ambipom.jpg"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "pokemons" ("name", "image_link", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Ambipom"], ["image_link", "https://img.pokemondb.net/artwork/ambipom.jpg"], ["created_at", "2017-06-26 20:32:42.373720"], ["updated_at", "2017-06-26 20:32:42.373720"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mPokemon Load (0.2ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Lurantis"], ["image_link", "https://img.pokemondb.net/artwork/lurantis.jpg"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "pokemons" ("name", "image_link", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Lurantis"], ["image_link", "https://img.pokemondb.net/artwork/lurantis.jpg"], ["created_at", "2017-06-26 20:32:46.044489"], ["updated_at", "2017-06-26 20:32:46.044489"]]
+  [1m[35m (1.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mPokemon Load (0.2ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Slugma"], ["image_link", "https://img.pokemondb.net/artwork/slugma.jpg"], ["LIMIT", 1]]
+  [1m[36mPokemon Load (0.1ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Lilligant"], ["image_link", "https://img.pokemondb.net/artwork/lilligant.jpg"], ["LIMIT", 1]]
+  [1m[36mPokemon Load (0.1ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Carvanha"], ["image_link", "https://img.pokemondb.net/artwork/carvanha.jpg"], ["LIMIT", 1]]
+  [1m[36mPokemon Load (0.1ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Metagross"], ["image_link", "https://img.pokemondb.net/artwork/metagross.jpg"], ["LIMIT", 1]]
+  [1m[36mPokemon Load (0.1ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Pansear"], ["image_link", "https://img.pokemondb.net/artwork/pansear.jpg"], ["LIMIT", 1]]
+  [1m[36mPokemon Load (0.1ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Luxio"], ["image_link", "https://img.pokemondb.net/artwork/luxio.jpg"], ["LIMIT", 1]]
+  [1m[36mPokemon Load (0.1ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Scrafty"], ["image_link", "https://img.pokemondb.net/artwork/scrafty.jpg"], ["LIMIT", 1]]
+  [1m[36mPokemon Load (0.2ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Frillish"], ["image_link", "https://img.pokemondb.net/artwork/frillish.jpg"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "pokemons" ("name", "image_link", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Frillish"], ["image_link", "https://img.pokemondb.net/artwork/frillish.jpg"], ["created_at", "2017-06-26 20:33:21.143458"], ["updated_at", "2017-06-26 20:33:21.143458"]]
+  [1m[35m (1.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mPokemon Load (0.2ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Manectric"], ["image_link", "https://img.pokemondb.net/artwork/manectric.jpg"], ["LIMIT", 1]]
+  [1m[36mPokemon Load (0.2ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Drapion"], ["image_link", "https://img.pokemondb.net/artwork/drapion.jpg"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "pokemons" ("name", "image_link", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Drapion"], ["image_link", "https://img.pokemondb.net/artwork/drapion.jpg"], ["created_at", "2017-06-26 20:33:29.822873"], ["updated_at", "2017-06-26 20:33:29.822873"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mPokemon Load (0.2ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Yanma"], ["image_link", "https://img.pokemondb.net/artwork/yanma.jpg"], ["LIMIT", 1]]
+  [1m[36mPokemon Load (0.1ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Emolga"], ["image_link", "https://img.pokemondb.net/artwork/emolga.jpg"], ["LIMIT", 1]]
+  [1m[36mPokemon Load (0.2ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Drifblim"], ["image_link", "https://img.pokemondb.net/artwork/drifblim.jpg"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "pokemons" ("name", "image_link", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Drifblim"], ["image_link", "https://img.pokemondb.net/artwork/drifblim.jpg"], ["created_at", "2017-06-26 20:33:43.413574"], ["updated_at", "2017-06-26 20:33:43.413574"]]
+  [1m[35m (1.8ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mPokemon Load (0.2ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Lairon"], ["image_link", "https://img.pokemondb.net/artwork/lairon.jpg"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "pokemons" ("name", "image_link", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Lairon"], ["image_link", "https://img.pokemondb.net/artwork/lairon.jpg"], ["created_at", "2017-06-26 20:33:47.600735"], ["updated_at", "2017-06-26 20:33:47.600735"]]
+  [1m[35m (1.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mPokemon Load (0.2ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Buizel"], ["image_link", "https://img.pokemondb.net/artwork/buizel.jpg"], ["LIMIT", 1]]
+  [1m[36mPokemon Load (0.1ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Weepinbell"], ["image_link", "https://img.pokemondb.net/artwork/weepinbell.jpg"], ["LIMIT", 1]]
+  [1m[36mPokemon Load (0.1ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Riolu"], ["image_link", "https://img.pokemondb.net/artwork/riolu.jpg"], ["LIMIT", 1]]
+  [1m[36mPokemon Load (0.1ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Morelull"], ["image_link", "https://img.pokemondb.net/artwork/morelull.jpg"], ["LIMIT", 1]]
+  [1m[36mPokemon Load (0.2ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Deerling"], ["image_link", "https://img.pokemondb.net/artwork/deerling.jpg"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "pokemons" ("name", "image_link", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Deerling"], ["image_link", "https://img.pokemondb.net/artwork/deerling.jpg"], ["created_at", "2017-06-26 20:34:08.323714"], ["updated_at", "2017-06-26 20:34:08.323714"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mPokemon Load (0.1ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Sudowoodo"], ["image_link", "https://img.pokemondb.net/artwork/sudowoodo.jpg"], ["LIMIT", 1]]
+  [1m[36mPokemon Load (0.1ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Sentret"], ["image_link", "https://img.pokemondb.net/artwork/sentret.jpg"], ["LIMIT", 1]]
+  [1m[36mPokemon Load (0.1ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Oranguru"], ["image_link", "https://img.pokemondb.net/artwork/oranguru.jpg"], ["LIMIT", 1]]
+  [1m[36mPokemon Load (0.1ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Dewpider"], ["image_link", "https://img.pokemondb.net/artwork/dewpider.jpg"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "pokemons" ("name", "image_link", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Dewpider"], ["image_link", "https://img.pokemondb.net/artwork/dewpider.jpg"], ["created_at", "2017-06-26 20:34:25.013387"], ["updated_at", "2017-06-26 20:34:25.013387"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mPokemon Load (0.2ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Houndoom"], ["image_link", "https://img.pokemondb.net/artwork/houndoom.jpg"], ["LIMIT", 1]]
+  [1m[36mPokemon Load (0.1ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Gible"], ["image_link", "https://img.pokemondb.net/artwork/gible.jpg"], ["LIMIT", 1]]
+  [1m[36mPokemon Load (0.2ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Entei"], ["image_link", "https://img.pokemondb.net/artwork/entei.jpg"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "pokemons" ("name", "image_link", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Entei"], ["image_link", "https://img.pokemondb.net/artwork/entei.jpg"], ["created_at", "2017-06-26 20:34:38.430086"], ["updated_at", "2017-06-26 20:34:38.430086"]]
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mPokemon Load (0.2ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Alakazam"], ["image_link", "https://img.pokemondb.net/artwork/alakazam.jpg"], ["LIMIT", 1]]
+  [1m[36mPokemon Load (0.1ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Vulpix"], ["image_link", "https://img.pokemondb.net/artwork/vulpix.jpg"], ["LIMIT", 1]]
+  [1m[36mPokemon Load (0.2ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Durant"], ["image_link", "https://img.pokemondb.net/artwork/durant.jpg"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "pokemons" ("name", "image_link", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Durant"], ["image_link", "https://img.pokemondb.net/artwork/durant.jpg"], ["created_at", "2017-06-26 20:34:51.732380"], ["updated_at", "2017-06-26 20:34:51.732380"]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mPokemon Load (0.1ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Blastoise"], ["image_link", "https://img.pokemondb.net/artwork/blastoise.jpg"], ["LIMIT", 1]]
+  [1m[36mPokemon Load (0.1ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Yanma"], ["image_link", "https://img.pokemondb.net/artwork/yanma.jpg"], ["LIMIT", 1]]
+  [1m[36mPokemon Load (0.1ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Incineroar"], ["image_link", "https://img.pokemondb.net/artwork/incineroar.jpg"], ["LIMIT", 1]]
+  [1m[36mPokemon Load (0.2ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Tentacool"], ["image_link", "https://img.pokemondb.net/artwork/tentacool.jpg"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "pokemons" ("name", "image_link", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Tentacool"], ["image_link", "https://img.pokemondb.net/artwork/tentacool.jpg"], ["created_at", "2017-06-26 20:35:08.635638"], ["updated_at", "2017-06-26 20:35:08.635638"]]
+  [1m[35m (0.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mPokemon Load (0.1ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Mudbray"], ["image_link", "https://img.pokemondb.net/artwork/mudbray.jpg"], ["LIMIT", 1]]
+  [1m[36mPokemon Load (0.2ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Sandile"], ["image_link", "https://img.pokemondb.net/artwork/sandile.jpg"], ["LIMIT", 1]]
+  [1m[36mPokemon Load (0.2ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Gabite"], ["image_link", "https://img.pokemondb.net/artwork/gabite.jpg"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "pokemons" ("name", "image_link", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Gabite"], ["image_link", "https://img.pokemondb.net/artwork/gabite.jpg"], ["created_at", "2017-06-26 20:35:20.825722"], ["updated_at", "2017-06-26 20:35:20.825722"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mPokemon Load (0.2ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Regirock"], ["image_link", "https://img.pokemondb.net/artwork/regirock.jpg"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "pokemons" ("name", "image_link", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Regirock"], ["image_link", "https://img.pokemondb.net/artwork/regirock.jpg"], ["created_at", "2017-06-26 20:35:25.409778"], ["updated_at", "2017-06-26 20:35:25.409778"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mPokemon Load (0.2ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Mienfoo"], ["image_link", "https://img.pokemondb.net/artwork/mienfoo.jpg"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "pokemons" ("name", "image_link", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Mienfoo"], ["image_link", "https://img.pokemondb.net/artwork/mienfoo.jpg"], ["created_at", "2017-06-26 20:35:30.092120"], ["updated_at", "2017-06-26 20:35:30.092120"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mPokemon Load (0.2ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Simisage"], ["image_link", "https://img.pokemondb.net/artwork/simisage.jpg"], ["LIMIT", 1]]
+  [1m[36mPokemon Load (0.2ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Dugtrio"], ["image_link", "https://img.pokemondb.net/artwork/dugtrio.jpg"], ["LIMIT", 1]]
+  [1m[36mPokemon Load (0.2ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Trumbeak"], ["image_link", "https://img.pokemondb.net/artwork/trumbeak.jpg"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "pokemons" ("name", "image_link", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Trumbeak"], ["image_link", "https://img.pokemondb.net/artwork/trumbeak.jpg"], ["created_at", "2017-06-26 20:35:42.617843"], ["updated_at", "2017-06-26 20:35:42.617843"]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mPokemon Load (0.2ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Tirtouga"], ["image_link", "https://img.pokemondb.net/artwork/tirtouga.jpg"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "pokemons" ("name", "image_link", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Tirtouga"], ["image_link", "https://img.pokemondb.net/artwork/tirtouga.jpg"], ["created_at", "2017-06-26 20:35:47.149631"], ["updated_at", "2017-06-26 20:35:47.149631"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mPokemon Load (0.2ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Helioptile"], ["image_link", "https://img.pokemondb.net/artwork/helioptile.jpg"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "pokemons" ("name", "image_link", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Helioptile"], ["image_link", "https://img.pokemondb.net/artwork/helioptile.jpg"], ["created_at", "2017-06-26 20:35:51.297877"], ["updated_at", "2017-06-26 20:35:51.297877"]]
+  [1m[35m (1.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mPokemon Load (0.2ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Doublade"], ["image_link", "https://img.pokemondb.net/artwork/doublade.jpg"], ["LIMIT", 1]]
+  [1m[36mPokemon Load (0.2ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Budew"], ["image_link", "https://img.pokemondb.net/artwork/budew.jpg"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "pokemons" ("name", "image_link", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Budew"], ["image_link", "https://img.pokemondb.net/artwork/budew.jpg"], ["created_at", "2017-06-26 20:35:59.407404"], ["updated_at", "2017-06-26 20:35:59.407404"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mPokemon Load (0.2ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Bewear"], ["image_link", "https://img.pokemondb.net/artwork/bewear.jpg"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "pokemons" ("name", "image_link", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Bewear"], ["image_link", "https://img.pokemondb.net/artwork/bewear.jpg"], ["created_at", "2017-06-26 20:36:03.322273"], ["updated_at", "2017-06-26 20:36:03.322273"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mPokemon Load (0.2ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Rampardos"], ["image_link", "https://img.pokemondb.net/artwork/rampardos.jpg"], ["LIMIT", 1]]
+  [1m[36mPokemon Load (0.2ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Zapdos"], ["image_link", "https://img.pokemondb.net/artwork/zapdos.jpg"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "pokemons" ("name", "image_link", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Zapdos"], ["image_link", "https://img.pokemondb.net/artwork/zapdos.jpg"], ["created_at", "2017-06-26 20:36:12.411888"], ["updated_at", "2017-06-26 20:36:12.411888"]]
+  [1m[35m (1.6ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mPokemon Load (0.3ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Fomantis"], ["image_link", "https://img.pokemondb.net/artwork/fomantis.jpg"], ["LIMIT", 1]]
+  [1m[36mPokemon Load (0.2ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Zangoose"], ["image_link", "https://img.pokemondb.net/artwork/zangoose.jpg"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "pokemons" ("name", "image_link", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Zangoose"], ["image_link", "https://img.pokemondb.net/artwork/zangoose.jpg"], ["created_at", "2017-06-26 20:36:20.989731"], ["updated_at", "2017-06-26 20:36:20.989731"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mPokemon Load (0.1ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Swoobat"], ["image_link", "https://img.pokemondb.net/artwork/swoobat.jpg"], ["LIMIT", 1]]
+  [1m[36mPokemon Load (0.2ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Aerodactyl"], ["image_link", "https://img.pokemondb.net/artwork/aerodactyl.jpg"], ["LIMIT", 1]]
+  [1m[36mPokemon Load (0.1ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Girafarig"], ["image_link", "https://img.pokemondb.net/artwork/girafarig.jpg"], ["LIMIT", 1]]
+  [1m[36mPokemon Load (0.3ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Amaura"], ["image_link", "https://img.pokemondb.net/artwork/amaura.jpg"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "pokemons" ("name", "image_link", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Amaura"], ["image_link", "https://img.pokemondb.net/artwork/amaura.jpg"], ["created_at", "2017-06-26 20:36:38.124927"], ["updated_at", "2017-06-26 20:36:38.124927"]]
+  [1m[35m (1.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mPokemon Load (0.2ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Helioptile"], ["image_link", "https://img.pokemondb.net/artwork/helioptile.jpg"], ["LIMIT", 1]]
+  [1m[36mPokemon Load (0.1ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Wormadam"], ["image_link", "https://img.pokemondb.net/artwork/wormadam-plant.jpg"], ["LIMIT", 1]]
+  [1m[36mPokemon Load (0.1ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Wooper"], ["image_link", "https://img.pokemondb.net/artwork/wooper.jpg"], ["LIMIT", 1]]
+Started GET "/pokemon" for 127.0.0.1 at 2017-06-26 13:36:52 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PokemonController#index as HTML
+  [1m[36mPokemon Load (1.2ms)[0m  [1m[34mSELECT "pokemons".* FROM "pokemons"[0m
+Completed 200 OK in 15ms (Views: 1.9ms | ActiveRecord: 1.8ms)
+
+
+  [1m[36mPokemon Load (0.1ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Diglett"], ["image_link", "https://img.pokemondb.net/artwork/diglett.jpg"], ["LIMIT", 1]]
+  [1m[36mPokemon Load (0.1ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Pignite"], ["image_link", "https://img.pokemondb.net/artwork/pignite.jpg"], ["LIMIT", 1]]
+Started GET "/pokemon" for 127.0.0.1 at 2017-06-26 13:37:01 -0700
+Processing by PokemonController#index as HTML
+  [1m[36mPokemon Load (1.4ms)[0m  [1m[34mSELECT "pokemons".* FROM "pokemons"[0m
+Completed 200 OK in 8ms (Views: 1.9ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/pokemon" for 127.0.0.1 at 2017-06-26 13:37:03 -0700
+Processing by PokemonController#index as HTML
+  [1m[36mPokemon Load (1.2ms)[0m  [1m[34mSELECT "pokemons".* FROM "pokemons"[0m
+Completed 200 OK in 7ms (Views: 1.7ms | ActiveRecord: 1.2ms)
+
+
+  [1m[36mPokemon Load (0.1ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Heliolisk"], ["image_link", "https://img.pokemondb.net/artwork/heliolisk.jpg"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "pokemons" ("name", "image_link", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Heliolisk"], ["image_link", "https://img.pokemondb.net/artwork/heliolisk.jpg"], ["created_at", "2017-06-26 20:37:03.643594"], ["updated_at", "2017-06-26 20:37:03.643594"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/pokemon" for 127.0.0.1 at 2017-06-26 13:37:07 -0700
+Processing by PokemonController#index as HTML
+  [1m[36mPokemon Load (1.2ms)[0m  [1m[34mSELECT "pokemons".* FROM "pokemons"[0m
+Completed 200 OK in 7ms (Views: 1.6ms | ActiveRecord: 1.2ms)
+
+
+  [1m[36mPokemon Load (0.2ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Kakuna"], ["image_link", "https://img.pokemondb.net/artwork/kakuna.jpg"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "pokemons" ("name", "image_link", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Kakuna"], ["image_link", "https://img.pokemondb.net/artwork/kakuna.jpg"], ["created_at", "2017-06-26 20:37:07.695237"], ["updated_at", "2017-06-26 20:37:07.695237"]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mPokemon Load (0.1ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Dratini"], ["image_link", "https://img.pokemondb.net/artwork/dratini.jpg"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "pokemons" ("name", "image_link", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Dratini"], ["image_link", "https://img.pokemondb.net/artwork/dratini.jpg"], ["created_at", "2017-06-26 20:37:12.135717"], ["updated_at", "2017-06-26 20:37:12.135717"]]
+  [1m[35m (1.7ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/pokemon" for 127.0.0.1 at 2017-06-26 13:37:15 -0700
+Processing by PokemonController#index as HTML
+  [1m[36mPokemon Load (1.3ms)[0m  [1m[34mSELECT "pokemons".* FROM "pokemons"[0m
+Completed 200 OK in 9ms (Views: 2.8ms | ActiveRecord: 1.3ms)
+
+
+  [1m[36mPokemon Load (0.1ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Charizard"], ["image_link", "https://img.pokemondb.net/artwork/charizard.jpg"], ["LIMIT", 1]]
+Started GET "/pokemon" for 127.0.0.1 at 2017-06-26 13:37:17 -0700
+Processing by PokemonController#index as HTML
+  [1m[36mPokemon Load (1.2ms)[0m  [1m[34mSELECT "pokemons".* FROM "pokemons"[0m
+Completed 200 OK in 7ms (Views: 1.6ms | ActiveRecord: 1.2ms)
+
+
+  [1m[36mPokemon Load (0.2ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Dusclops"], ["image_link", "https://img.pokemondb.net/artwork/dusclops.jpg"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "pokemons" ("name", "image_link", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Dusclops"], ["image_link", "https://img.pokemondb.net/artwork/dusclops.jpg"], ["created_at", "2017-06-26 20:37:20.356376"], ["updated_at", "2017-06-26 20:37:20.356376"]]
+  [1m[35m (0.4ms)[0m  [1m[36mcommit transaction[0m
+Started GET "/pokemon" for 127.0.0.1 at 2017-06-26 13:37:21 -0700
+Processing by PokemonController#index as HTML
+  [1m[36mPokemon Load (1.4ms)[0m  [1m[34mSELECT "pokemons".* FROM "pokemons"[0m
+Completed 200 OK in 8ms (Views: 1.7ms | ActiveRecord: 1.4ms)
+
+
+  [1m[36mPokemon Load (0.2ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Persian"], ["image_link", "https://img.pokemondb.net/artwork/persian.jpg"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "pokemons" ("name", "image_link", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Persian"], ["image_link", "https://img.pokemondb.net/artwork/persian.jpg"], ["created_at", "2017-06-26 20:37:24.628113"], ["updated_at", "2017-06-26 20:37:24.628113"]]
+  [1m[35m (0.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mPokemon Load (0.2ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Noivern"], ["image_link", "https://img.pokemondb.net/artwork/noivern.jpg"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "pokemons" ("name", "image_link", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Noivern"], ["image_link", "https://img.pokemondb.net/artwork/noivern.jpg"], ["created_at", "2017-06-26 20:37:28.901631"], ["updated_at", "2017-06-26 20:37:28.901631"]]
+  [1m[35m (1.2ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mPokemon Load (0.2ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Latios"], ["image_link", "https://img.pokemondb.net/artwork/latios.jpg"], ["LIMIT", 1]]
+  [1m[36mPokemon Load (0.2ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Absol"], ["image_link", "https://img.pokemondb.net/artwork/absol.jpg"], ["LIMIT", 1]]
+Started GET "/pokemon" for 127.0.0.1 at 2017-06-26 13:37:40 -0700
+Processing by PokemonController#index as HTML
+  [1m[36mPokemon Load (1.2ms)[0m  [1m[34mSELECT "pokemons".* FROM "pokemons"[0m
+Completed 200 OK in 9ms (Views: 2.6ms | ActiveRecord: 1.2ms)
+
+
+  [1m[36mPokemon Load (0.2ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Registeel"], ["image_link", "https://img.pokemondb.net/artwork/registeel.jpg"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "pokemons" ("name", "image_link", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Registeel"], ["image_link", "https://img.pokemondb.net/artwork/registeel.jpg"], ["created_at", "2017-06-26 20:37:41.705147"], ["updated_at", "2017-06-26 20:37:41.705147"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mPokemon Load (0.1ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Blastoise"], ["image_link", "https://img.pokemondb.net/artwork/blastoise.jpg"], ["LIMIT", 1]]
+  [1m[36mPokemon Load (0.1ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Reshiram"], ["image_link", "https://img.pokemondb.net/artwork/reshiram.jpg"], ["LIMIT", 1]]
+  [1m[36mPokemon Load (0.1ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Giratina"], ["image_link", "https://img.pokemondb.net/artwork/giratina-altered.jpg"], ["LIMIT", 1]]
+  [1m[36mPokemon Load (0.1ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Aerodactyl"], ["image_link", "https://img.pokemondb.net/artwork/aerodactyl.jpg"], ["LIMIT", 1]]
+  [1m[36mPokemon Load (0.2ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Tympole"], ["image_link", "https://img.pokemondb.net/artwork/tympole.jpg"], ["LIMIT", 1]]
+  [1m[36mPokemon Load (0.1ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Zapdos"], ["image_link", "https://img.pokemondb.net/artwork/zapdos.jpg"], ["LIMIT", 1]]
+  [1m[36mPokemon Load (0.1ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Heatran"], ["image_link", "https://img.pokemondb.net/artwork/heatran.jpg"], ["LIMIT", 1]]
+  [1m[36mPokemon Load (0.2ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Crawdaunt"], ["image_link", "https://img.pokemondb.net/artwork/crawdaunt.jpg"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "pokemons" ("name", "image_link", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["name", "Crawdaunt"], ["image_link", "https://img.pokemondb.net/artwork/crawdaunt.jpg"], ["created_at", "2017-06-26 20:38:15.453895"], ["updated_at", "2017-06-26 20:38:15.453895"]]
+  [1m[35m (1.5ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT COUNT(*) FROM "pokemons"[0m
+  [1m[36mPokemon Load (0.2ms)[0m  [1m[34mSELECT  "pokemons".* FROM "pokemons" WHERE "pokemons"."name" = ? AND "pokemons"."image_link" = ? LIMIT ?[0m  [["name", "Dragonite"], ["image_link", "https://img.pokemondb.net/artwork/dragonite.jpg"], ["LIMIT", 1]]
+Started GET "/" for 127.0.0.1 at 2017-06-26 13:41:57 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Parameters: {"internal"=>true}
+  Rendering /Users/collinshelby/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/railties-5.0.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/collinshelby/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/railties-5.0.3/lib/rails/templates/rails/welcome/index.html.erb (3.8ms)
+Completed 200 OK in 12ms (Views: 8.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pokemon" for 127.0.0.1 at 2017-06-26 13:42:00 -0700
+Processing by PokemonController#index as HTML
+  [1m[36mPokemon Load (1.4ms)[0m  [1m[34mSELECT "pokemons".* FROM "pokemons"[0m
+Completed 200 OK in 13ms (Views: 2.3ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/pokemon" for 127.0.0.1 at 2017-06-26 13:42:45 -0700
+Processing by PokemonController#index as HTML
+  [1m[36mPokemon Load (1.1ms)[0m  [1m[34mSELECT "pokemons".* FROM "pokemons"[0m
+Completed 200 OK in 8ms (Views: 2.4ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/pokemon" for 127.0.0.1 at 2017-06-26 13:43:15 -0700
+Started GET "/pokemon" for 127.0.0.1 at 2017-06-26 13:43:25 -0700
+Processing by PokemonController#index as HTML
+  [1m[36mPokemon Load (1.2ms)[0m  [1m[34mSELECT "pokemons".* FROM "pokemons"[0m
+Completed 200 OK in 12ms (Views: 2.1ms | ActiveRecord: 1.6ms)
+
+
+Processing by PokemonController#index as HTML
+Started GET "/pokemon" for 127.0.0.1 at 2017-06-26 13:43:25 -0700
+Processing by PokemonController#index as HTML
+  [1m[36mPokemon Load (1.2ms)[0m  [1m[34mSELECT "pokemons".* FROM "pokemons"[0m
+  [1m[36mPokemon Load (1.2ms)[0m  [1m[34mSELECT "pokemons".* FROM "pokemons"[0m
+Completed 200 OK in 16ms (Views: 2.9ms | ActiveRecord: 1.6ms)
+
+
+Completed 200 OK in 23ms (Views: 3.5ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/pokemon" for 127.0.0.1 at 2017-06-26 13:43:57 -0700
+Processing by PokemonController#index as HTML
+  [1m[36mPokemon Load (1.3ms)[0m  [1m[34mSELECT "pokemons".* FROM "pokemons"[0m
+Completed 200 OK in 13ms (Views: 2.7ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/pokemon" for 127.0.0.1 at 2017-06-26 13:44:15 -0700
+Processing by PokemonController#index as HTML
+  [1m[36mPokemon Load (1.3ms)[0m  [1m[34mSELECT "pokemons".* FROM "pokemons"[0m
+Completed 200 OK in 8ms (Views: 2.6ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/pokemon" for 127.0.0.1 at 2017-06-26 13:44:17 -0700
+Processing by PokemonController#index as HTML
+  [1m[36mPokemon Load (1.1ms)[0m  [1m[34mSELECT "pokemons".* FROM "pokemons"[0m
+Completed 200 OK in 9ms (Views: 3.1ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/pokemon" for 127.0.0.1 at 2017-06-26 13:44:50 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PokemonController#index as HTML
+  [1m[36mPokemon Load (1.1ms)[0m  [1m[34mSELECT "pokemons".* FROM "pokemons"[0m
+Completed 200 OK in 13ms (Views: 2.7ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/pokemon" for 127.0.0.1 at 2017-06-26 13:45:10 -0700
+Started GET "/pokemon" for 127.0.0.1 at 2017-06-26 13:45:20 -0700
+Processing by PokemonController#index as HTML
+  [1m[36mPokemon Load (1.3ms)[0m  [1m[34mSELECT "pokemons".* FROM "pokemons"[0m
+Completed 200 OK in 13ms (Views: 2.6ms | ActiveRecord: 1.7ms)
+
+
+Processing by PokemonController#index as HTML
+  [1m[36mPokemon Load (1.3ms)[0m  [1m[34mSELECT "pokemons".* FROM "pokemons"[0m
+Started GET "/pokemon" for 127.0.0.1 at 2017-06-26 13:45:20 -0700
+Completed 200 OK in 15ms (Views: 2.6ms | ActiveRecord: 1.7ms)
+
+
+Processing by PokemonController#index as HTML
+  [1m[36mPokemon Load (1.3ms)[0m  [1m[34mSELECT "pokemons".* FROM "pokemons"[0m
+Completed 200 OK in 9ms (Views: 2.7ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/pokemon" for 127.0.0.1 at 2017-06-26 13:46:45 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PokemonController#index as HTML
+  [1m[36mPokemon Load (1.7ms)[0m  [1m[34mSELECT "pokemons".* FROM "pokemons"[0m
+Completed 200 OK in 16ms (Views: 2.2ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/pokemon" for 127.0.0.1 at 2017-06-26 13:46:51 -0700
+Processing by PokemonController#index as HTML
+  [1m[36mPokemon Load (1.2ms)[0m  [1m[34mSELECT "pokemons".* FROM "pokemons"[0m
+Completed 200 OK in 8ms (Views: 2.5ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/pokemon" for 127.0.0.1 at 2017-06-26 13:47:07 -0700
+Processing by PokemonController#index as HTML
+  [1m[36mPokemon Load (1.3ms)[0m  [1m[34mSELECT "pokemons".* FROM "pokemons"[0m
+Completed 200 OK in 13ms (Views: 2.2ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/pokemon" for 127.0.0.1 at 2017-06-26 13:47:50 -0700
+Processing by PokemonController#index as HTML
+  [1m[36mPokemon Load (2.0ms)[0m  [1m[34mSELECT "pokemons".* FROM "pokemons"[0m
+Completed 200 OK in 16ms (Views: 1.5ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/pokemon" for 127.0.0.1 at 2017-06-26 13:48:34 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PokemonController#index as HTML
+  [1m[36mPokemon Load (1.1ms)[0m  [1m[34mSELECT "pokemons".* FROM "pokemons"[0m
+Completed 200 OK in 13ms (Views: 1.8ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/pokemon" for 127.0.0.1 at 2017-06-26 13:48:36 -0700
+Processing by PokemonController#index as HTML
+  [1m[36mPokemon Load (1.5ms)[0m  [1m[34mSELECT "pokemons".* FROM "pokemons"[0m
+Completed 200 OK in 10ms (Views: 1.5ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/pokemon" for 127.0.0.1 at 2017-06-26 13:49:51 -0700
+Started GET "/pokemon" for 127.0.0.1 at 2017-06-26 13:50:07 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PokemonController#index as HTML
+  [1m[36mPokemon Load (1.1ms)[0m  [1m[34mSELECT "pokemons".* FROM "pokemons"[0m
+Completed 200 OK in 13ms (Views: 2.3ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/pokemon" for 127.0.0.1 at 2017-06-26 13:50:47 -0700
+Processing by PokemonController#index as HTML
+  [1m[36mPokemon Load (1.3ms)[0m  [1m[34mSELECT "pokemons".* FROM "pokemons"[0m
+Completed 200 OK in 8ms (Views: 2.1ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/pokemon" for 127.0.0.1 at 2017-06-26 13:51:01 -0700
+Started GET "/pokemon" for 127.0.0.1 at 2017-06-26 13:51:08 -0700
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PokemonController#index as HTML
+  [1m[36mPokemon Load (1.3ms)[0m  [1m[34mSELECT "pokemons".* FROM "pokemons"[0m
+Completed 200 OK in 13ms (Views: 2.2ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-06-26 13:51:33 -0700
+Processing by Rails::WelcomeController#index as HTML
+  Parameters: {"internal"=>true}
+  Rendering /Users/collinshelby/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/railties-5.0.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/collinshelby/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/railties-5.0.3/lib/rails/templates/rails/welcome/index.html.erb (3.8ms)
+Completed 200 OK in 10ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pokemon" for 127.0.0.1 at 2017-06-26 13:51:37 -0700
+Processing by PokemonController#index as HTML
+  [1m[36mPokemon Load (1.4ms)[0m  [1m[34mSELECT "pokemons".* FROM "pokemons"[0m
+Completed 200 OK in 9ms (Views: 2.2ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/pokemon" for 127.0.0.1 at 2017-06-26 13:51:48 -0700
+Processing by PokemonController#index as HTML
+  [1m[36mPokemon Load (1.4ms)[0m  [1m[34mSELECT "pokemons".* FROM "pokemons"[0m
+Completed 200 OK in 9ms (Views: 2.2ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/pokemon" for 127.0.0.1 at 2017-06-26 13:51:58 -0700
+Processing by PokemonController#index as HTML
+  [1m[36mPokemon Load (1.9ms)[0m  [1m[34mSELECT "pokemons".* FROM "pokemons"[0m
+Completed 200 OK in 9ms (Views: 2.1ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/pokemon" for 127.0.0.1 at 2017-06-26 13:52:11 -0700
+Processing by PokemonController#index as HTML
+  [1m[36mPokemon Load (1.2ms)[0m  [1m[34mSELECT "pokemons".* FROM "pokemons"[0m
+Completed 200 OK in 8ms (Views: 2.4ms | ActiveRecord: 1.2ms)
+
+
